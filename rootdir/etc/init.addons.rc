@@ -1,0 +1,7 @@
+# Addons script for Xiaomi Redmi 8
+# Don't touch it!
+
+# SMART CHARGING
+on boot
+    chown system system /sys/class/power_supply/battery/input_suspend
+    chmod 0660 /sys/class/power_supply/battery/input_suspend
