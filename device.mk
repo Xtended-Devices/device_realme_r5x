@@ -697,4 +697,4 @@ TARGET_BOARD_PLATFORM := trinket
 PRODUCT_USES_QCOM_HARDWARE := true
 
 # RealmeDirac
-$(call inherit-product, $(LOCAL_PATH)/RealmeDirac/dirac.mk)
+$(call inherit-product, $(LOCAL_PATH)/app/RealmeDirac/dirac.mk)
