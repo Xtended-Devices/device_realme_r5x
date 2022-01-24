@@ -39,6 +39,9 @@ PRODUCT_SOONG_NAMESPACES += \
 # Vendor properties
 -include $(LOCAL_PATH)/vendor_props.mk
 
+# Parts
+$(call inherit-product, $(LOCAL_PATH)/app/RealmeParts/parts.mk)
+
 # ANT+
 PRODUCT_PACKAGES += \
     AntHalService \
@@ -694,4 +697,4 @@ TARGET_BOARD_PLATFORM := trinket
 PRODUCT_USES_QCOM_HARDWARE := true
 
 # RealmeDirac
-$(call inherit-product, packages/apps/RealmeDirac/dirac.mk)
+$(call inherit-product, $(LOCAL_PATH)/RealmeDirac/dirac.mk)
