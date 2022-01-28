@@ -2652,6 +2652,9 @@ vendor/bin/init.qti.chg_policy.sh|ecbd0df01254fb28ddfe8174b1a16b96a87303ff
 vendor/etc/charger_fstab.qti|8464c139d93f05e86ff9c9d31b3e8617b8d9476e
 vendor/etc/init/vendor.qti.hardware.charger_monitor@1.0-service.rc|29b23be4f604282abf715f86aec9697175a9aaad
 
+# Charger - from mojito-12 qssi-user-12-SKQ1.210908.001-V13.0.3.0.SKGMIXM-release-keys
+bin/charger:bin/chargeonlymode|a82b58eee656b3915b514a2285983911e5cdc618
+
 # CNE - from LA.UM.9.11.r1-03200-NICOBAR.0
 -vendor/app/CneApp/CneApp.apk|c7f1a32077c09abc838ade8f6849138b94f93321
 vendor/bin/cnd|37a3abbd652b976bda3c50097f1596298b5a4870

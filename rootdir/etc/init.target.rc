@@ -462,6 +462,13 @@ on property:init.svc.hwcomposer-2-1=restarting
 #     group system
 #     disabled
 
+service charger /bin/chargeonlymode
+    class charger
+    critical
+    #seclabel u:r:charger:s0
+    group system graphics
+    seclabel u:r:healthd:s0
+
 service qfp-daemon /vendor/bin/qfp-daemon
     class late_start
     user system
