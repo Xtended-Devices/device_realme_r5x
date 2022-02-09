@@ -65,6 +65,9 @@ ro.media.recorder-max-base-layer-fps=60
 # Netflix
 ro.netflix.bsp_rev=Q6125-17995-1
 
+#Processor mModel
+ro.processor.model=SD665
+
 # One handed mode
 ro.support_one_handed_mode=true
 
