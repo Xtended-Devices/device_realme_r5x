@@ -344,6 +344,12 @@ service vendor.imsdatadaemon /system/vendor/bin/imsdatadaemon
     group system wifi radio inet log vendor_qti_diag
     disabled
 
+service vendor.adsprpcd /vendor/bin/adsprpcd
+   class main
+   user media
+   group media
+   disabled
+
 #service mdm_helper /system/bin/mdm_helper
 #    class core
 #    onrestart setprop ro.service.mdm_helper_restarted "true"
