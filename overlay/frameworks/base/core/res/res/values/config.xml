@@ -530,4 +530,6 @@
     <!-- Whether to cancel fingerprint operation if not idle -->
     <bool name="config_fpCancelIfNotIdle">true</bool>
 
+    <!-- Set the deafult dialer package name. -->
+    <string name="config_defaultDialer" translatable="false">com.google.android.dialer</string>
 </resources>
